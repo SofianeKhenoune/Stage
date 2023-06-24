@@ -1,0 +1,203 @@
+<html>
+<head>
+<meta charset='utf-8'>
+<style>
+  #mld .relation { font-variant: small-caps; font-weight: bold }
+  #mld .primary { text-decoration: underline }
+  #mld .foreign { font-style: oblique }
+  #mld .normal { }
+  #mld strong { font-weight: bold }
+  #mld i { font-style: italic }
+  #mld ul { list-style-type:square; margin: 0 0 1em 2em }
+</style>
+</head>
+<body>
+<div id='mld'>
+<div>
+  <details><summary><span class='relation'>Access to</span> (
+    <span title='primary_foreign_key (Folder)' class='foreign primary'>#CodeFolder</span>,
+    <span title='primary_foreign_key (User)' class='foreign primary'>#CodeUser</span>
+  )</summary>
+  <ul>
+    <li>Le champ <i>CodeFolder</i> fait partie de la clé primaire de la table. C'est une clé étrangère qui a migré directement à partir de l'entité <i>Folder</i>.</li>
+    <li>Le champ <i>CodeUser</i> fait partie de la clé primaire de la table. C'est une clé étrangère qui a migré directement à partir de l'entité <i>User</i>.</li>
+  </ul></details>
+</div>
+
+<div>
+  <details><summary><span class='relation'>Access to1</span> (
+    <span title='primary_foreign_key (Section)' class='foreign primary'>#CodeSection</span>,
+    <span title='primary_foreign_key (User)' class='foreign primary'>#CodeUser</span>
+  )</summary>
+  <ul>
+    <li>Le champ <i>CodeSection</i> fait partie de la clé primaire de la table. C'est une clé étrangère qui a migré directement à partir de l'entité <i>Section</i>.</li>
+    <li>Le champ <i>CodeUser</i> fait partie de la clé primaire de la table. C'est une clé étrangère qui a migré directement à partir de l'entité <i>User</i>.</li>
+  </ul></details>
+</div>
+
+<div>
+  <details><summary><span class='relation'>Bidder</span> (
+    <span title='primary_key (None)' class='primary'>CodeBidder</span>,
+    <span title='normal_attribute (None)' class='normal'>name</span>,
+    <span title='normal_attribute (None)' class='normal'>description</span>
+  )</summary>
+  <ul>
+    <li>Le champ <i>CodeBidder</i> constitue la clé primaire de la table. C'était déjà un identifiant de l'entité <i>Bidder</i>.</li>
+    <li>Les champs <i>name</i> et <i>description</i> étaient déjà de simples attributs de l'entité <i>Bidder</i>.</li>
+  </ul></details>
+</div>
+
+<div>
+  <details><summary><span class='relation'>Chapter</span> (
+    <span title='primary_key (None)' class='primary'>CodeChapter</span>,
+    <span title='normal_attribute (None)' class='normal'>label</span>,
+    <span title='normal_attribute (None)' class='normal'>order</span>,
+    <span title='normal_attribute (None)' class='normal'>created_at</span>,
+    <span title='normal_attribute (None)' class='normal'>updated_at</span>,
+    <span title='foreign_key (User)' class='foreign'>#CodeUser</span>
+  )</summary>
+  <ul>
+    <li>Le champ <i>CodeChapter</i> constitue la clé primaire de la table. C'était déjà un identifiant de l'entité <i>Chapter</i>.</li>
+    <li>Les champs <i>label</i>, <i>order</i>, <i>created_at</i> et <i>updated_at</i> étaient déjà de simples attributs de l'entité <i>Chapter</i>.</li>
+    <li>Le champ <i>CodeUser</i> est une clé étrangère. Il a migré par l'association de dépendance fonctionnelle <i>Create</i> à partir de l'entité <i>User</i> en perdant son caractère identifiant.</li>
+  </ul></details>
+</div>
+
+<div>
+  <details><summary><span class='relation'>Folder</span> (
+    <span title='primary_key (None)' class='primary'>CodeFolder</span>,
+    <span title='normal_attribute (None)' class='normal'>reference</span>,
+    <span title='normal_attribute (None)' class='normal'>label</span>,
+    <span title='normal_attribute (None)' class='normal'>description</span>,
+    <span title='normal_attribute (None)' class='normal'>status</span>,
+    <span title='normal_attribute (None)' class='normal'>created_at</span>,
+    <span title='normal_attribute (None)' class='normal'>updated_at</span>,
+    <span title='foreign_key (User)' class='foreign'>#CodeUser</span>
+  )</summary>
+  <ul>
+    <li>Le champ <i>CodeFolder</i> constitue la clé primaire de la table. C'était déjà un identifiant de l'entité <i>Folder</i>.</li>
+    <li>Les champs <i>reference</i>, <i>label</i>, <i>description</i>, <i>status</i>, <i>created_at</i> et <i>updated_at</i> étaient déjà de simples attributs de l'entité <i>Folder</i>.</li>
+    <li>Le champ <i>CodeUser</i> est une clé étrangère. Il a migré par l'association de dépendance fonctionnelle <i>Open</i> à partir de l'entité <i>User</i> en perdant son caractère identifiant.</li>
+  </ul></details>
+</div>
+
+<div>
+  <details><summary><span class='relation'>Has</span> (
+    <span title='primary_foreign_key (Folder)' class='foreign primary'>#CodeFolder</span>,
+    <span title='primary_foreign_key (Section)' class='foreign primary'>#CodeSection</span>
+  )</summary>
+  <ul>
+    <li>Le champ <i>CodeFolder</i> fait partie de la clé primaire de la table. C'est une clé étrangère qui a migré directement à partir de l'entité <i>Folder</i>.</li>
+    <li>Le champ <i>CodeSection</i> fait partie de la clé primaire de la table. C'est une clé étrangère qui a migré directement à partir de l'entité <i>Section</i>.</li>
+  </ul></details>
+</div>
+
+<div>
+  <details><summary><span class='relation'>Has1</span> (
+    <span title='primary_foreign_key (Section)' class='foreign primary'>#CodeSection</span>,
+    <span title='primary_foreign_key (Chapter)' class='foreign primary'>#CodeChapter</span>
+  )</summary>
+  <ul>
+    <li>Le champ <i>CodeSection</i> fait partie de la clé primaire de la table. C'est une clé étrangère qui a migré directement à partir de l'entité <i>Section</i>.</li>
+    <li>Le champ <i>CodeChapter</i> fait partie de la clé primaire de la table. C'est une clé étrangère qui a migré directement à partir de l'entité <i>Chapter</i>.</li>
+  </ul></details>
+</div>
+
+<div>
+  <details><summary><span class='relation'>Has2</span> (
+    <span title='primary_foreign_key (Chapter)' class='foreign primary'>#CodeChapter</span>,
+    <span title='primary_foreign_key (Question)' class='foreign primary'>#CodeQuestion</span>
+  )</summary>
+  <ul>
+    <li>Le champ <i>CodeChapter</i> fait partie de la clé primaire de la table. C'est une clé étrangère qui a migré directement à partir de l'entité <i>Chapter</i>.</li>
+    <li>Le champ <i>CodeQuestion</i> fait partie de la clé primaire de la table. C'est une clé étrangère qui a migré directement à partir de l'entité <i>Question</i>.</li>
+  </ul></details>
+</div>
+
+<div>
+  <details><summary><span class='relation'>Has3</span> (
+    <span title='primary_foreign_key (Chapter)' class='foreign primary'>#CodeChapter</span>,
+    <span title='primary_foreign_key (Chapter)' class='foreign primary'>#CodeChapter.1</span>
+  )</summary>
+  <ul>
+    <li>Les champs <i>CodeChapter</i> et <i>CodeChapter.1</i> constituent la clé primaire de la table. Ce sont des clés étrangères qui ont migré directement à partir de l'entité <i>Chapter</i>.</li>
+  </ul></details>
+</div>
+
+<div>
+  <details><summary><span class='relation'>Linked to</span> (
+    <span title='primary_foreign_key (Folder)' class='foreign primary'>#CodeFolder</span>,
+    <span title='primary_foreign_key (Bidder)' class='foreign primary'>#CodeBidder</span>
+  )</summary>
+  <ul>
+    <li>Le champ <i>CodeFolder</i> fait partie de la clé primaire de la table. C'est une clé étrangère qui a migré directement à partir de l'entité <i>Folder</i>.</li>
+    <li>Le champ <i>CodeBidder</i> fait partie de la clé primaire de la table. C'est une clé étrangère qui a migré directement à partir de l'entité <i>Bidder</i>.</li>
+  </ul></details>
+</div>
+
+<div>
+  <details><summary><span class='relation'>Question</span> (
+    <span title='primary_key (None)' class='primary'>CodeQuestion</span>,
+    <span title='normal_attribute (None)' class='normal'>label</span>,
+    <span title='normal_attribute (None)' class='normal'>moderation</span>,
+    <span title='normal_attribute (None)' class='normal'>order</span>,
+    <span title='normal_attribute (None)' class='normal'>created_at</span>,
+    <span title='normal_attribute (None)' class='normal'>updated_at</span>,
+    <span title='foreign_key (User)' class='foreign'>#CodeUser</span>
+  )</summary>
+  <ul>
+    <li>Le champ <i>CodeQuestion</i> constitue la clé primaire de la table. C'était déjà un identifiant de l'entité <i>Question</i>.</li>
+    <li>Les champs <i>label</i>, <i>moderation</i>, <i>order</i>, <i>created_at</i> et <i>updated_at</i> étaient déjà de simples attributs de l'entité <i>Question</i>.</li>
+    <li>Le champ <i>CodeUser</i> est une clé étrangère. Il a migré par l'association de dépendance fonctionnelle <i>Create2</i> à partir de l'entité <i>User</i> en perdant son caractère identifiant.</li>
+  </ul></details>
+</div>
+
+<div>
+  <details><summary><span class='relation'>Response</span> (
+    <span title='primary_key (None)' class='primary'>CodeResponse</span>,
+    <span title='normal_attribute (None)' class='normal'>moderation</span>,
+    <span title='normal_attribute (None)' class='normal'>comment</span>,
+    <span title='normal_attribute (None)' class='normal'>created_at</span>,
+    <span title='normal_attribute (None)' class='normal'>updated_at</span>,
+    <span title='foreign_key (Question)' class='foreign'>#CodeQuestion</span>
+  )</summary>
+  <ul>
+    <li>Le champ <i>CodeResponse</i> constitue la clé primaire de la table. C'était déjà un identifiant de l'entité <i>Response</i>.</li>
+    <li>Les champs <i>moderation</i>, <i>comment</i>, <i>created_at</i> et <i>updated_at</i> étaient déjà de simples attributs de l'entité <i>Response</i>.</li>
+    <li>Le champ <i>CodeQuestion</i> est une clé étrangère. Il a migré par l'association de dépendance fonctionnelle <i>Has4</i> à partir de l'entité <i>Question</i> en perdant son caractère identifiant.</li>
+  </ul></details>
+</div>
+
+<div>
+  <details><summary><span class='relation'>Section</span> (
+    <span title='primary_key (None)' class='primary'>CodeSection</span>,
+    <span title='normal_attribute (None)' class='normal'>label</span>,
+    <span title='normal_attribute (None)' class='normal'>order</span>,
+    <span title='normal_attribute (None)' class='normal'>created_at</span>,
+    <span title='normal_attribute (None)' class='normal'>updated_at</span>,
+    <span title='foreign_key (User)' class='foreign'>#CodeUser</span>
+  )</summary>
+  <ul>
+    <li>Le champ <i>CodeSection</i> constitue la clé primaire de la table. C'était déjà un identifiant de l'entité <i>Section</i>.</li>
+    <li>Les champs <i>label</i>, <i>order</i>, <i>created_at</i> et <i>updated_at</i> étaient déjà de simples attributs de l'entité <i>Section</i>.</li>
+    <li>Le champ <i>CodeUser</i> est une clé étrangère. Il a migré par l'association de dépendance fonctionnelle <i>Create1</i> à partir de l'entité <i>User</i> en perdant son caractère identifiant.</li>
+  </ul></details>
+</div>
+
+<div>
+  <details><summary><span class='relation'>User</span> (
+    <span title='primary_key (None)' class='primary'>CodeUser</span>,
+    <span title='normal_attribute (None)' class='normal'>last_name</span>,
+    <span title='normal_attribute (None)' class='normal'>first_name</span>,
+    <span title='normal_attribute (None)' class='normal'>email</span>,
+    <span title='normal_attribute (None)' class='normal'>role</span>
+  )</summary>
+  <ul>
+    <li>Le champ <i>CodeUser</i> constitue la clé primaire de la table. C'était déjà un identifiant de l'entité <i>User</i>.</li>
+    <li>Les champs <i>last_name</i>, <i>first_name</i>, <i>email</i> et <i>role</i> étaient déjà de simples attributs de l'entité <i>User</i>.</li>
+  </ul></details>
+</div>
+
+</div>
+</body>
+</html>

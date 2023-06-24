@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="992" height="719" viewBox="0 0 992 719" xmlns="http://www.w3.org/2000/svg">
+<rect id="frame" x="0" y="0" width="992" height="719" fill="#f5f5f5" stroke="none" stroke-width="0"/>
+
+<!-- Entity Bidder -->
+<g>
+	<g>
+		<rect x="46" y="9" width="80" height="25" fill="#dfc27d" stroke="#dfc27d" stroke-width="0" opacity="1"/>
+		<rect x="46" y="34" width="80" height="59" fill="#f6e8c3" stroke="#f6e8c3" stroke-width="0" opacity="1"/>
+		<rect x="46" y="9" width="80" height="84" fill="none" stroke="#bf812d" stroke-width="2" opacity="1"/>
+		<line x1="46" y1="34" x2="126" y2="34" stroke="#bf812d" stroke-width="1"/>
+	</g>
+	<text x="66" y="26.75" fill="#000" font-family="Verdana" font-size="12">Bidder</text>
+	<text x="51" y="51.8" fill="#000" font-family="Verdana" font-size="12">CodeBidder</text>
+	<line x1="51" y1="54" x2="121" y2="54" stroke="#000" stroke-width="1"/>
+	<text x="51" y="68.8" fill="#000" font-family="Verdana" font-size="12">name</text>
+	<text x="51" y="85.8" fill="#000" font-family="Verdana" font-size="12">description</text>
+</g>
+
+<!-- Entity Has -->
+<g>
+	<g>
+		<rect x="339" y="17" width="96" height="25" fill="#dfc27d" stroke="#dfc27d" stroke-width="0" opacity="1"/>
+		<rect x="339" y="42" width="96" height="43" fill="#f6e8c3" stroke="#f6e8c3" stroke-width="0" opacity="1"/>
+		<rect x="339" y="17" width="96" height="68" fill="none" stroke="#bf812d" stroke-width="2" opacity="1"/>
+		<line x1="339" y1="42" x2="435" y2="42" stroke="#bf812d" stroke-width="1"/>
+	</g>
+	<text x="376" y="34.75" fill="#000" font-family="Verdana" font-size="12">Has</text>
+	<text x="344" y="59.8" fill="#000" font-family="Verdana" font-size="12">#CodeFolder</text>
+	<line x1="344" y1="62" x2="422" y2="62" stroke="#000" stroke-width="1"/>
+	<text x="344" y="76.8" fill="#000" font-family="Verdana" font-size="12">#CodeSection</text>
+	<line x1="344" y1="79" x2="430" y2="79" stroke="#000" stroke-width="1"/>
+</g>
+
+<!-- Entity Linked to -->
+<g>
+	<g>
+		<rect x="41" y="127" width="90" height="25" fill="#dfc27d" stroke="#dfc27d" stroke-width="0" opacity="1"/>
+		<rect x="41" y="152" width="90" height="43" fill="#f6e8c3" stroke="#f6e8c3" stroke-width="0" opacity="1"/>
+		<rect x="41" y="127" width="90" height="68" fill="none" stroke="#bf812d" stroke-width="2" opacity="1"/>
+		<line x1="41" y1="152" x2="131" y2="152" stroke="#bf812d" stroke-width="1"/>
+	</g>
+	<text x="58" y="144.75" fill="#000" font-family="Verdana" font-size="12">Linked to</text>
+	<text x="46" y="169.8" fill="#000" font-family="Verdana" font-size="12">#CodeFolder</text>
+	<line x1="46" y1="172" x2="124" y2="172" stroke="#000" stroke-width="1"/>
+	<text x="46" y="186.8" fill="#000" font-family="Verdana" font-size="12">#CodeBidder</text>
+	<line x1="46" y1="189" x2="126" y2="189" stroke="#000" stroke-width="1"/>
+</g>
+
+<!-- Entity Folder -->
+<g>
+	<g>
+		<rect x="195" y="76" width="80" height="25" fill="#dfc27d" stroke="#dfc27d" stroke-width="0" opacity="1"/>
+		<rect x="195" y="101" width="80" height="145" fill="#f6e8c3" stroke="#f6e8c3" stroke-width="0" opacity="1"/>
+		<rect x="195" y="76" width="80" height="170" fill="none" stroke="#bf812d" stroke-width="2" opacity="1"/>
+		<line x1="195" y1="101" x2="275" y2="101" stroke="#bf812d" stroke-width="1"/>
+	</g>
+	<text x="216" y="93.75" fill="#000" font-family="Verdana" font-size="12">Folder</text>
+	<text x="200" y="118.8" fill="#000" font-family="Verdana" font-size="12">CodeFolder</text>
+	<line x1="200" y1="121" x2="269" y2="121" stroke="#000" stroke-width="1"/>
+	<text x="200" y="135.8" fill="#000" font-family="Verdana" font-size="12">reference</text>
+	<text x="200" y="152.8" fill="#000" font-family="Verdana" font-size="12">label</text>
+	<text x="200" y="169.8" fill="#000" font-family="Verdana" font-size="12">description</text>
+	<text x="200" y="186.8" fill="#000" font-family="Verdana" font-size="12">status</text>
+	<text x="200" y="203.8" fill="#000" font-family="Verdana" font-size="12">created_at</text>
+	<text x="200" y="220.8" fill="#000" font-family="Verdana" font-size="12">updated_at</text>
+	<text x="200" y="237.8" fill="#000" font-family="Verdana" font-size="12">#CodeUser</text>
+</g>
+
+<!-- Entity Access to1 -->
+<g>
+	<g>
+		<rect x="339" y="127" width="96" height="25" fill="#dfc27d" stroke="#dfc27d" stroke-width="0" opacity="1"/>
+		<rect x="339" y="152" width="96" height="43" fill="#f6e8c3" stroke="#f6e8c3" stroke-width="0" opacity="1"/>
+		<rect x="339" y="127" width="96" height="68" fill="none" stroke="#bf812d" stroke-width="2" opacity="1"/>
+		<line x1="339" y1="152" x2="435" y2="152" stroke="#bf812d" stroke-width="1"/>
+	</g>
+	<text x="358" y="144.75" fill="#000" font-family="Verdana" font-size="12">Access to</text>
+	<text x="344" y="169.8" fill="#000" font-family="Verdana" font-size="12">#CodeSection</text>
+	<line x1="344" y1="172" x2="430" y2="172" stroke="#000" stroke-width="1"/>
+	<text x="344" y="186.8" fill="#000" font-family="Verdana" font-size="12">#CodeUser</text>
+	<line x1="344" y1="189" x2="412" y2="189" stroke="#000" stroke-width="1"/>
+</g>
+
+<!-- Entity Section -->
+<g>
+	<g>
+		<rect x="509" y="93" width="86" height="25" fill="#dfc27d" stroke="#dfc27d" stroke-width="0" opacity="1"/>
+		<rect x="509" y="118" width="86" height="111" fill="#f6e8c3" stroke="#f6e8c3" stroke-width="0" opacity="1"/>
+		<rect x="509" y="93" width="86" height="136" fill="none" stroke="#bf812d" stroke-width="2" opacity="1"/>
+		<line x1="509" y1="118" x2="595" y2="118" stroke="#bf812d" stroke-width="1"/>
+	</g>
+	<text x="530" y="110.75" fill="#000" font-family="Verdana" font-size="12">Section</text>
+	<text x="514" y="135.8" fill="#000" font-family="Verdana" font-size="12">CodeSection</text>
+	<line x1="514" y1="138" x2="590" y2="138" stroke="#000" stroke-width="1"/>
+	<text x="514" y="152.8" fill="#000" font-family="Verdana" font-size="12">label</text>
+	<text x="514" y="169.8" fill="#000" font-family="Verdana" font-size="12">order</text>
+	<text x="514" y="186.8" fill="#000" font-family="Verdana" font-size="12">created_at</text>
+	<text x="514" y="203.8" fill="#000" font-family="Verdana" font-size="12">updated_at</text>
+	<text x="514" y="220.8" fill="#000" font-family="Verdana" font-size="12">#CodeUser</text>
+</g>
+
+<!-- Entity Has1 -->
+<g>
+	<g>
+		<rect x="672" y="127" width="100" height="25" fill="#dfc27d" stroke="#dfc27d" stroke-width="0" opacity="1"/>
+		<rect x="672" y="152" width="100" height="43" fill="#f6e8c3" stroke="#f6e8c3" stroke-width="0" opacity="1"/>
+		<rect x="672" y="127" width="100" height="68" fill="none" stroke="#bf812d" stroke-width="2" opacity="1"/>
+		<line x1="672" y1="152" x2="772" y2="152" stroke="#bf812d" stroke-width="1"/>
+	</g>
+	<text x="711" y="144.75" fill="#000" font-family="Verdana" font-size="12">Has</text>
+	<text x="677" y="169.8" fill="#000" font-family="Verdana" font-size="12">#CodeSection</text>
+	<line x1="677" y1="172" x2="763" y2="172" stroke="#000" stroke-width="1"/>
+	<text x="677" y="186.8" fill="#000" font-family="Verdana" font-size="12">#CodeChapter</text>
+	<line x1="677" y1="189" x2="766" y2="189" stroke="#000" stroke-width="1"/>
+</g>
+
+<!-- Entity Access to -->
+<g>
+	<g>
+		<rect x="343" y="279" width="88" height="25" fill="#dfc27d" stroke="#dfc27d" stroke-width="0" opacity="1"/>
+		<rect x="343" y="304" width="88" height="43" fill="#f6e8c3" stroke="#f6e8c3" stroke-width="0" opacity="1"/>
+		<rect x="343" y="279" width="88" height="68" fill="none" stroke="#bf812d" stroke-width="2" opacity="1"/>
+		<line x1="343" y1="304" x2="431" y2="304" stroke="#bf812d" stroke-width="1"/>
+	</g>
+	<text x="358" y="296.75" fill="#000" font-family="Verdana" font-size="12">Access to</text>
+	<text x="348" y="321.8" fill="#000" font-family="Verdana" font-size="12">#CodeFolder</text>
+	<line x1="348" y1="324" x2="426" y2="324" stroke="#000" stroke-width="1"/>
+	<text x="348" y="338.8" fill="#000" font-family="Verdana" font-size="12">#CodeUser</text>
+	<line x1="348" y1="341" x2="416" y2="341" stroke="#000" stroke-width="1"/>
+</g>
+
+<!-- Entity User -->
+<g>
+	<g>
+		<rect x="514" y="254" width="76" height="25" fill="#dfc27d" stroke="#dfc27d" stroke-width="0" opacity="1"/>
+		<rect x="514" y="279" width="76" height="93" fill="#f6e8c3" stroke="#f6e8c3" stroke-width="0" opacity="1"/>
+		<rect x="514" y="254" width="76" height="118" fill="none" stroke="#bf812d" stroke-width="2" opacity="1"/>
+		<line x1="514" y1="279" x2="590" y2="279" stroke="#bf812d" stroke-width="1"/>
+	</g>
+	<text x="538" y="271.75" fill="#000" font-family="Verdana" font-size="12">User</text>
+	<text x="519" y="296.8" fill="#000" font-family="Verdana" font-size="12">CodeUser</text>
+	<line x1="519" y1="299" x2="578" y2="299" stroke="#000" stroke-width="1"/>
+	<text x="519" y="313.8" fill="#000" font-family="Verdana" font-size="12">last_name</text>
+	<text x="519" y="330.8" fill="#000" font-family="Verdana" font-size="12">first_name</text>
+	<text x="519" y="347.8" fill="#000" font-family="Verdana" font-size="12">email</text>
+	<text x="519" y="364.8" fill="#000" font-family="Verdana" font-size="12">role</text>
+</g>
+
+<!-- Entity Chapter -->
+<g>
+	<g>
+		<rect x="677" y="245" width="90" height="25" fill="#dfc27d" stroke="#dfc27d" stroke-width="0" opacity="1"/>
+		<rect x="677" y="270" width="90" height="111" fill="#f6e8c3" stroke="#f6e8c3" stroke-width="0" opacity="1"/>
+		<rect x="677" y="245" width="90" height="136" fill="none" stroke="#bf812d" stroke-width="2" opacity="1"/>
+		<line x1="677" y1="270" x2="767" y2="270" stroke="#bf812d" stroke-width="1"/>
+	</g>
+	<text x="698" y="262.75" fill="#000" font-family="Verdana" font-size="12">Chapter</text>
+	<text x="682" y="287.8" fill="#000" font-family="Verdana" font-size="12">CodeChapter</text>
+	<line x1="682" y1="290" x2="761" y2="290" stroke="#000" stroke-width="1"/>
+	<text x="682" y="304.8" fill="#000" font-family="Verdana" font-size="12">label</text>
+	<text x="682" y="321.8" fill="#000" font-family="Verdana" font-size="12">order</text>
+	<text x="682" y="338.8" fill="#000" font-family="Verdana" font-size="12">created_at</text>
+	<text x="682" y="355.8" fill="#000" font-family="Verdana" font-size="12">updated_at</text>
+	<text x="682" y="372.8" fill="#000" font-family="Verdana" font-size="12">#CodeUser</text>
+</g>
+
+<!-- Entity Has3 -->
+<g>
+	<g>
+		<rect x="839" y="279" width="112" height="25" fill="#dfc27d" stroke="#dfc27d" stroke-width="0" opacity="1"/>
+		<rect x="839" y="304" width="112" height="43" fill="#f6e8c3" stroke="#f6e8c3" stroke-width="0" opacity="1"/>
+		<rect x="839" y="279" width="112" height="68" fill="none" stroke="#bf812d" stroke-width="2" opacity="1"/>
+		<line x1="839" y1="304" x2="951" y2="304" stroke="#bf812d" stroke-width="1"/>
+	</g>
+	<text x="884" y="296.75" fill="#000" font-family="Verdana" font-size="12">Has</text>
+	<text x="844" y="321.8" fill="#000" font-family="Verdana" font-size="12">#CodeChapter</text>
+	<line x1="844" y1="324" x2="933" y2="324" stroke="#000" stroke-width="1"/>
+	<text x="844" y="338.8" fill="#000" font-family="Verdana" font-size="12">#CodeChapter.1</text>
+	<line x1="844" y1="341" x2="945" y2="341" stroke="#000" stroke-width="1"/>
+</g>
+
+<!-- Entity Question -->
+<g>
+	<g>
+		<rect x="504" y="397" width="96" height="25" fill="#dfc27d" stroke="#dfc27d" stroke-width="0" opacity="1"/>
+		<rect x="504" y="422" width="96" height="127" fill="#f6e8c3" stroke="#f6e8c3" stroke-width="0" opacity="1"/>
+		<rect x="504" y="397" width="96" height="152" fill="none" stroke="#bf812d" stroke-width="2" opacity="1"/>
+		<line x1="504" y1="422" x2="600" y2="422" stroke="#bf812d" stroke-width="1"/>
+	</g>
+	<text x="525" y="414.75" fill="#000" font-family="Verdana" font-size="12">Question</text>
+	<text x="509" y="439.8" fill="#000" font-family="Verdana" font-size="12">CodeQuestion</text>
+	<line x1="509" y1="442" x2="594" y2="442" stroke="#000" stroke-width="1"/>
+	<text x="509" y="456.8" fill="#000" font-family="Verdana" font-size="12">label</text>
+	<text x="509" y="473.8" fill="#000" font-family="Verdana" font-size="12">moderation</text>
+	<text x="509" y="490.8" fill="#000" font-family="Verdana" font-size="12">order</text>
+	<text x="509" y="507.8" fill="#000" font-family="Verdana" font-size="12">created_at</text>
+	<text x="509" y="524.8" fill="#000" font-family="Verdana" font-size="12">updated_at</text>
+	<text x="509" y="541.8" fill="#000" font-family="Verdana" font-size="12">#CodeUser</text>
+</g>
+
+<!-- Entity Has2 -->
+<g>
+	<g>
+		<rect x="669" y="439" width="106" height="25" fill="#dfc27d" stroke="#dfc27d" stroke-width="0" opacity="1"/>
+		<rect x="669" y="464" width="106" height="43" fill="#f6e8c3" stroke="#f6e8c3" stroke-width="0" opacity="1"/>
+		<rect x="669" y="439" width="106" height="68" fill="none" stroke="#bf812d" stroke-width="2" opacity="1"/>
+		<line x1="669" y1="464" x2="775" y2="464" stroke="#bf812d" stroke-width="1"/>
+	</g>
+	<text x="711" y="456.75" fill="#000" font-family="Verdana" font-size="12">Has</text>
+	<text x="674" y="481.8" fill="#000" font-family="Verdana" font-size="12">#CodeChapter</text>
+	<line x1="674" y1="484" x2="763" y2="484" stroke="#000" stroke-width="1"/>
+	<text x="674" y="498.8" fill="#000" font-family="Verdana" font-size="12">#CodeQuestion</text>
+	<line x1="674" y1="501" x2="769" y2="501" stroke="#000" stroke-width="1"/>
+</g>
+
+<!-- Entity Response -->
+<g>
+	<g>
+		<rect x="499" y="574" width="106" height="25" fill="#dfc27d" stroke="#dfc27d" stroke-width="0" opacity="1"/>
+		<rect x="499" y="599" width="106" height="111" fill="#f6e8c3" stroke="#f6e8c3" stroke-width="0" opacity="1"/>
+		<rect x="499" y="574" width="106" height="136" fill="none" stroke="#bf812d" stroke-width="2" opacity="1"/>
+		<line x1="499" y1="599" x2="605" y2="599" stroke="#bf812d" stroke-width="1"/>
+	</g>
+	<text x="523" y="591.75" fill="#000" font-family="Verdana" font-size="12">Response</text>
+	<text x="504" y="616.8" fill="#000" font-family="Verdana" font-size="12">CodeResponse</text>
+	<line x1="504" y1="619" x2="593" y2="619" stroke="#000" stroke-width="1"/>
+	<text x="504" y="633.8" fill="#000" font-family="Verdana" font-size="12">moderation</text>
+	<text x="504" y="650.8" fill="#000" font-family="Verdana" font-size="12">comment</text>
+	<text x="504" y="667.8" fill="#000" font-family="Verdana" font-size="12">created_at</text>
+	<text x="504" y="684.8" fill="#000" font-family="Verdana" font-size="12">updated_at</text>
+	<text x="504" y="701.8" fill="#000" font-family="Verdana" font-size="12">#CodeQuestion</text>
+</g>
+
+<!-- Link from &quot;CodeFolder&quot; (Has) to &quot;CodeFolder&quot; (Folder) -->
+<path d="M339 55.5 C307 85 317.67 114.5 275 114.5" fill="none" stroke="#35978f" stroke-width="2"/>
+<polygon points="275 114.5 287 108.5 283 114.5 287 120.5" fill="#35978f" stroke-width="0"/>
+<circle cx="339" cy="55.5" r="2" stroke="#35978f" stroke-width="2" fill="#35978f"/>
+
+<!-- Link from &quot;CodeSection&quot; (Has) to &quot;CodeSection&quot; (Section) -->
+<path d="M435 72.5 C472 102 459.67 131.5 509 131.5" fill="none" stroke="#35978f" stroke-width="2"/>
+<polygon points="509 131.5 497 137.5 501 131.5 497 125.5" fill="#35978f" stroke-width="0"/>
+<circle cx="435" cy="72.5" r="2" stroke="#35978f" stroke-width="2" fill="#35978f"/>
+
+<!-- Link from &quot;CodeFolder&quot; (Linked to) to &quot;CodeFolder&quot; (Folder) -->
+<path d="M131 165.5 C163 140 152.33 114.5 195 114.5" fill="none" stroke="#35978f" stroke-width="2"/>
+<polygon points="195 114.5 183 120.5 187 114.5 183 108.5" fill="#35978f" stroke-width="0"/>
+<circle cx="131" cy="165.5" r="2" stroke="#35978f" stroke-width="2" fill="#35978f"/>
+
+<!-- Link from &quot;CodeBidder&quot; (Linked to) to &quot;CodeBidder&quot; (Bidder) -->
+<path d="M41 182.5 C-13 115 -8 47.5 46 47.5" fill="none" stroke="#35978f" stroke-width="2"/>
+<polygon points="46 47.5 34 53.5 38 47.5 34 41.5" fill="#35978f" stroke-width="0"/>
+<circle cx="41" cy="182.5" r="2" stroke="#35978f" stroke-width="2" fill="#35978f"/>
+
+<!-- Link from &quot;CodeUser&quot; (Folder) to &quot;CodeUser&quot; (User) -->
+<path d="M275 233.5 C394.5 263 354.67 292.5 514 292.5" fill="none" stroke="#35978f" stroke-width="2"/>
+<polygon points="514 292.5 502 298.5 506 292.5 502 286.5" fill="#35978f" stroke-width="0"/>
+<circle cx="275" cy="233.5" r="2" stroke="#35978f" stroke-width="2" fill="#35978f"/>
+
+<!-- Link from &quot;CodeSection&quot; (Access to1) to &quot;CodeSection&quot; (Section) -->
+<path d="M435 165.5 C472 148.5 459.67 131.5 509 131.5" fill="none" stroke="#35978f" stroke-width="2"/>
+<polygon points="509 131.5 497 137.5 501 131.5 497 125.5" fill="#35978f" stroke-width="0"/>
+<circle cx="435" cy="165.5" r="2" stroke="#35978f" stroke-width="2" fill="#35978f"/>
+
+<!-- Link from &quot;CodeUser&quot; (Access to1) to &quot;CodeUser&quot; (User) -->
+<path d="M435 182.5 C474.5 237.5 461.33 292.5 514 292.5" fill="none" stroke="#35978f" stroke-width="2"/>
+<polygon points="514 292.5 502 298.5 506 292.5 502 286.5" fill="#35978f" stroke-width="0"/>
+<circle cx="435" cy="182.5" r="2" stroke="#35978f" stroke-width="2" fill="#35978f"/>
+
+<!-- Link from &quot;CodeUser&quot; (Section) to &quot;CodeUser&quot; (User) -->
+<path d="M509 216.5 C455 254.5 460 292.5 514 292.5" fill="none" stroke="#35978f" stroke-width="2"/>
+<polygon points="514 292.5 502 298.5 506 292.5 502 286.5" fill="#35978f" stroke-width="0"/>
+<circle cx="509" cy="216.5" r="2" stroke="#35978f" stroke-width="2" fill="#35978f"/>
+
+<!-- Link from &quot;CodeSection&quot; (Has1) to &quot;CodeSection&quot; (Section) -->
+<path d="M672 165.5 C633.5 148.5 646.33 131.5 595 131.5" fill="none" stroke="#35978f" stroke-width="2"/>
+<polygon points="595 131.5 607 125.5 603 131.5 607 137.5" fill="#35978f" stroke-width="0"/>
+<circle cx="672" cy="165.5" r="2" stroke="#35978f" stroke-width="2" fill="#35978f"/>
+
+<!-- Link from &quot;CodeChapter&quot; (Has1) to &quot;CodeChapter&quot; (Chapter) -->
+<path d="M672 182.5 C618 233 623 283.5 677 283.5" fill="none" stroke="#35978f" stroke-width="2"/>
+<polygon points="677 283.5 665 289.5 669 283.5 665 277.5" fill="#35978f" stroke-width="0"/>
+<circle cx="672" cy="182.5" r="2" stroke="#35978f" stroke-width="2" fill="#35978f"/>
+
+<!-- Link from &quot;CodeFolder&quot; (Access to) to &quot;CodeFolder&quot; (Folder) -->
+<path d="M343 317.5 C309 216 320.33 114.5 275 114.5" fill="none" stroke="#35978f" stroke-width="2"/>
+<polygon points="275 114.5 287 108.5 283 114.5 287 120.5" fill="#35978f" stroke-width="0"/>
+<circle cx="343" cy="317.5" r="2" stroke="#35978f" stroke-width="2" fill="#35978f"/>
+
+<!-- Link from &quot;CodeUser&quot; (Access to) to &quot;CodeUser&quot; (User) -->
+<path d="M431 334.5 C472.5 313.5 458.67 292.5 514 292.5" fill="none" stroke="#35978f" stroke-width="2"/>
+<polygon points="514 292.5 502 298.5 506 292.5 502 286.5" fill="#35978f" stroke-width="0"/>
+<circle cx="431" cy="334.5" r="2" stroke="#35978f" stroke-width="2" fill="#35978f"/>
+
+<!-- Link from &quot;CodeUser&quot; (Chapter) to &quot;CodeUser&quot; (User) -->
+<path d="M677 368.5 C633.5 330.5 648 292.5 590 292.5" fill="none" stroke="#35978f" stroke-width="2"/>
+<polygon points="590 292.5 602 286.5 598 292.5 602 298.5" fill="#35978f" stroke-width="0"/>
+<circle cx="677" cy="368.5" r="2" stroke="#35978f" stroke-width="2" fill="#35978f"/>
+
+<!-- Link from &quot;CodeChapter&quot; (Has3) to &quot;CodeChapter&quot; (Chapter) -->
+<path d="M839 317.5 C803 300.5 815 283.5 767 283.5" fill="none" stroke="#35978f" stroke-width="2"/>
+<polygon points="767 283.5 779 277.5 775 283.5 779 289.5" fill="#35978f" stroke-width="0"/>
+<circle cx="839" cy="317.5" r="2" stroke="#35978f" stroke-width="2" fill="#35978f"/>
+
+<!-- Link from &quot;CodeChapter&quot; (Has3) to &quot;CodeChapter&quot; (Chapter) -->
+<path d="M839 334.5 C803 309 815 283.5 767 283.5" fill="none" stroke="#35978f" stroke-width="2"/>
+<polygon points="767 283.5 779 277.5 775 283.5 779 289.5" fill="#35978f" stroke-width="0"/>
+<circle cx="839" cy="334.5" r="2" stroke="#35978f" stroke-width="2" fill="#35978f"/>
+
+<!-- Link from &quot;CodeUser&quot; (Question) to &quot;CodeUser&quot; (User) -->
+<path d="M600 537.5 C654 415 644 292.5 590 292.5" fill="none" stroke="#35978f" stroke-width="2"/>
+<polygon points="590 292.5 602 286.5 598 292.5 602 298.5" fill="#35978f" stroke-width="0"/>
+<circle cx="600" cy="537.5" r="2" stroke="#35978f" stroke-width="2" fill="#35978f"/>
+
+<!-- Link from &quot;CodeChapter&quot; (Has2) to &quot;CodeChapter&quot; (Chapter) -->
+<path d="M775 477.5 C829 380.5 821 283.5 767 283.5" fill="none" stroke="#35978f" stroke-width="2"/>
+<polygon points="767 283.5 779 277.5 775 283.5 779 289.5" fill="#35978f" stroke-width="0"/>
+<circle cx="775" cy="477.5" r="2" stroke="#35978f" stroke-width="2" fill="#35978f"/>
+
+<!-- Link from &quot;CodeQuestion&quot; (Has2) to &quot;CodeQuestion&quot; (Question) -->
+<path d="M669 494.5 C634.5 465 646 435.5 600 435.5" fill="none" stroke="#35978f" stroke-width="2"/>
+<polygon points="600 435.5 612 429.5 608 435.5 612 441.5" fill="#35978f" stroke-width="0"/>
+<circle cx="669" cy="494.5" r="2" stroke="#35978f" stroke-width="2" fill="#35978f"/>
+
+<!-- Link from &quot;CodeQuestion&quot; (Response) to &quot;CodeQuestion&quot; (Question) -->
+<path d="M499 697.5 C445 566.5 450 435.5 504 435.5" fill="none" stroke="#35978f" stroke-width="2"/>
+<polygon points="504 435.5 492 441.5 496 435.5 492 429.5" fill="#35978f" stroke-width="0"/>
+<circle cx="499" cy="697.5" r="2" stroke="#35978f" stroke-width="2" fill="#35978f"/>
+</svg>

@@ -1,0 +1,39 @@
+:
+:
+Has1, 0N Section, 0N Chapter
+:
+:
+:
+:
+
+:
+Has3, 0N Chapter, 0N Chapter
+Access to1, 0N Section, 0N User
+Section: CodeSection, label, order, created_at, updated_at
+Has, 0N Folder, 0N Section
+:
+:
+
+:
+Chapter: CodeChapter, label, order, created_at, updated_at
+Create, 11 Chapter, 0N User
+Create1, 11 Section, 0N User
+Access to, 0N Folder, 0N User
+Folder: CodeFolder, reference, label, description, status, created_at, updated_at
+:
+
+:
+:
+Has2, 0N Chapter, 0N Question
+User: CodeUser, last_name, first_name, email, role
+Open, 11 Folder, 0N User
+Linked to, 0N Folder, 0N Bidder
+Bidder: CodeBidder, name, description
+
+Response: CodeResponse, moderation, comment, created_at, updated_at
+Has4, 0N Question, 11 Response
+Question: CodeQuestion, label, moderation, order, created_at, updated_at
+Create2, 11 Question, 0N User
+:
+:
+:

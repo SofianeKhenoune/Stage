@@ -1,0 +1,49 @@
+%%mocodo
+:::
+Bidder: name, description
+:::::
+
+
+:::
+Linked to: #reference->Folder->reference, _#name->Bidder->name
+:::::
+
+
+:::
+Folder: reference, label, description, status, #last name->User->last name
+:
+Has: #reference->Folder->reference, _#label->Section->label
+:::
+
+
+:
+Access to: #reference->Folder->reference, _#last name->User->last name
+:::::
+Section: label, description, order
+:
+
+
+:::
+User: last name, first name, email, role, #label->Section->label
+:
+Access to1: #label->Section->label, _#last name->User->last name
+:
+Has1: #label->Section->label, _#label.1->Chapter->label
+:
+
+
+:::::::
+Chapter: label, order, #last name->User->last name, #label.1->Chapter->label
+:
+
+
+:::
+Question: label, moderation, order, #last name->User->last name
+:
+Has2: #label->Chapter->label, _#label.1->Question->label
+:::
+
+
+:::::
+Response: moderation, comment, #label->Question->label
+:::

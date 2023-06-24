@@ -1,0 +1,20 @@
+- name
+- description
+- label
+- order
+- reference
+- label
+- description
+- status
+- label
+- moderation
+- order
+- moderation
+- comment
+- label
+- description
+- order
+- last name
+- first name
+- email
+- role

@@ -1,0 +1,42 @@
+%%mocodo
+:::::
+Has1: #CodeSection->Section->CodeSection, _#CodeChapter->Chapter->CodeChapter
+:::::::::
+
+
+:::
+Has3: #CodeChapter->Chapter->CodeChapter, _#CodeChapter.1->Chapter->CodeChapter
+:
+Access to1: #CodeSection->Section->CodeSection, _#CodeUser->User->CodeUser
+:
+Section: CodeSection, label, order, created_at, updated_at, #CodeUser->User->CodeUser
+:
+Has: #CodeFolder->Folder->CodeFolder, _#CodeSection->Section->CodeSection
+:::::
+
+
+:::
+Chapter: CodeChapter, label, order, created_at, updated_at, #CodeUser->User->CodeUser
+:::::
+Access to: #CodeFolder->Folder->CodeFolder, _#CodeUser->User->CodeUser
+:
+Folder: CodeFolder, reference, label, description, status, created_at, updated_at, #CodeUser->User->CodeUser
+:::
+
+
+:::::
+Has2: #CodeChapter->Chapter->CodeChapter, _#CodeQuestion->Question->CodeQuestion
+:
+User: CodeUser, last_name, first_name, email, role
+:::
+Linked to: #CodeFolder->Folder->CodeFolder, _#CodeBidder->Bidder->CodeBidder
+:
+Bidder: CodeBidder, name, description
+:
+
+
+:
+Response: CodeResponse, moderation, comment, created_at, updated_at, #CodeQuestion->Question->CodeQuestion
+:::
+Question: CodeQuestion, label, moderation, order, created_at, updated_at, #CodeUser->User->CodeUser
+:::::::::

@@ -1,0 +1,47 @@
+:
+Bidder: name, description
+:
+:
+:
+
+:
+Linked to, 0N Folder, 0N Bidder
+:
+:
+:
+
+:
+Folder: reference, label, description, status
+Has, 0N Folder, 0N Section
+:
+:
+
+Access to, 0N Folder, 0N User
+Open, 11 Folder, 0N User
+Create1, 0N Section, 11 User
+Section: label, description, order
+:
+
+:
+User: last name, first name, email, role
+Access to1, 0N Section, 0N User
+Has1, 0N Section, 0N Chapter
+:
+
+:
+Create2, 11 Question, 0N User
+Create, 11 Chapter, 0N User
+Chapter: label, order
+Has3, 11 Chapter, 0N Chapter
+
+:
+Question: label, moderation, order
+Has2, 0N Chapter, 0N Question
+:
+:
+
+:
+Has4, 0N Question, 11 Response
+Response: moderation, comment
+:
+:
